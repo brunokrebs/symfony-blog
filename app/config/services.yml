@@ -34,6 +34,6 @@ services:
     #     arguments:
     #         $someArgument: 'some_value'
 
-AppBundle\EventListener\Author\CheckIsAuthorListener:
-    tags:
-        - { name: kernel.event_listener, event: kernel.controller }
+    AppBundle\EventListener\Author\CheckIsAuthorListener:
+        tags:
+            - { name: kernel.event_listener, event: kernel.controller }
